@@ -2,7 +2,7 @@
 simple tg bot 
 
 
-####install
+### install
 
 Indented 4 spaces, like `<pre>` (Preformatted Text).
 
