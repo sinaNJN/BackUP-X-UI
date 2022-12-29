@@ -1,6 +1,6 @@
 from pyrogram import Client
 
-bot = CLient(
+bot = Client(
     session_name = "xui" ,
     api_id = 1110329,
     api_hash = "b90f31f3765a434904767080a25db99a",
