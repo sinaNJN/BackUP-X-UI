@@ -6,4 +6,4 @@
 
 
 ### نصب
-    pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && cd BackU-X-UI && python3 bot.py
+    pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && cd BackU-X-UI && python3 Bot.py
