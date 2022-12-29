@@ -1,16 +1,25 @@
 from pyrogram import Client
 
+#--set---#
+
+user_api_id = input('set api id: ')
+user_api_hash = input('set api hash : ')
+user_bot_token = input('set bot token : ')
+user_pv_id = input('set your Id(usernumber) : ')
+user_path_file = input('set (x-ui.db) path : ')
+
+#---bot---#
 bot = Client(
     session_name = "xui" ,
-    api_id = 1110329,
-    api_hash = "b90f31f3765a434904767080a25db99a",
-    bot_token = '774065700:AAGl_JH0aXzqjUjUxRDvFodPNGI4ASB1PrE'
+    api_id = user_api_id,
+    api_hash = user_api_hash,
+    bot_token = user_bot_token
     
 )
 
 @bot.on_message()
 async def test(Client , message):
-    await bot.send_message(message.chat.id , 'hello world')
+    await bot.send_document(user_pv_id, user_path_file, caption="New BackUp")
 
 
 bot.run()
