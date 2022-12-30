@@ -8,5 +8,8 @@
 - [screen EN](https://linuxize.com/post/how-to-use-linux-screen) 
 - [screen FA](https://webnology.ir/linux-screen-command)
 
+
+### نصب pip
+    sudo apt-get update && sudo apt-get -y install python3-pip 
 ### نصب
-    pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && cd BackU-X-UI && python3 Bot.py
+    pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && cd BackUP-X-UI && python3 Bot.py
