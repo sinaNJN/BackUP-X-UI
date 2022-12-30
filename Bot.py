@@ -11,7 +11,7 @@ user_path_file = input('set (x-ui.db) path : ')
 
 #---bot---#
 bot = Client(
-    session_name = "sina",
+    name = "sina",
     api_id = user_api_id,
     api_hash = user_api_hash,
     bot_token = user_bot_token
