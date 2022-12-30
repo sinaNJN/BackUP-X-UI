@@ -5,7 +5,8 @@
  - ادرس فایل که ازش بکاپ گرفته میشود
 
 - برای روشن موندن بات از screen استفاده کنید
-- [screen EN](http://my.telegram.org](https://linuxize.com/post/how-to-use-linux-screen) - [screen FA](https://webnology.ir/linux-screen-command)
+- [screen EN](http://my.telegram.org](https://linuxize.com/post/how-to-use-linux-screen) 
+- [screen FA](https://webnology.ir/linux-screen-command)
 
 ### نصب
     pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && cd BackU-X-UI && python3 Bot.py
