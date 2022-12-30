@@ -1,4 +1,5 @@
 from pyrogram import Client
+import time
 
 #--set---#
 
@@ -10,7 +11,7 @@ user_path_file = input('set (x-ui.db) path : ')
 
 #---bot---#
 bot = Client(
-    session_name = "xui" ,
+    session_name = "sina",
     api_id = user_api_id,
     api_hash = user_api_hash,
     bot_token = user_bot_token
@@ -19,7 +20,7 @@ bot = Client(
 
 @bot.on_message()
 async def test(Client , message):
-    await bot.send_document(user_pv_id, user_path_file, caption="New BackUp")
+    await bot.send_document(user_pv_id, user_path_file, caption=time.strftime("%m/%d/%Y, %H:%M:%S\nNew BackUp\n@DeviceOS", time.localtime()))
 
 
 bot.run()
