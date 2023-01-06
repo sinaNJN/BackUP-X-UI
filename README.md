@@ -12,4 +12,4 @@
 ### نصب pip
     sudo apt-get update && sudo apt-get -y install python3-pip 
 ### نصب
-    pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && cd BackUP-X-UI && python3 Bot.py
+    pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && screen && cd BackUP-X-UI && python3 Bot.py
