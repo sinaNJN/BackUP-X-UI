@@ -1,6 +1,6 @@
 from pyrogram import Client
 import time
-import config.py
+import config
 
 #--set---#
 
