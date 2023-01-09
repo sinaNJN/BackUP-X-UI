@@ -1,4 +1,4 @@
-import config.py
+import config
 from pyrogram import Client
 import time
 
