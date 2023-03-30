@@ -15,9 +15,4 @@
     pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && screen && cd BackUP-X-UI && python3 Bot.py
 
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
