@@ -13,3 +13,8 @@
     sudo apt-get update && sudo apt-get -y install python3-pip 
 ### نصب
     pip install pyrogram && git clone https://github.com/sinaNJN/BackUP-X-UI && screen && cd BackUP-X-UI && python3 Bot.py
+
+### Example To Use Api
+https://domin.com/folder/web.php?value=name&type=remark
+
+https://domin.com/folder/web.php?value=port&type=port
